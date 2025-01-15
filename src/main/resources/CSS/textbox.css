@@ -1,0 +1,14 @@
+#playerNameField {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-pref-width: 300;
+    -fx-pref-height: 40;
+    -fx-text-fill: turquoise;
+    -fx-prompt-text-fill: turquoise;
+    -fx-font-family: "Copperplate Gothic Bold";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+#playerNameField:focused {
+    -fx-background-color: black;
+}

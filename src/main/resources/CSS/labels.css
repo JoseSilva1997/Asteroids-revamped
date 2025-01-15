@@ -1,0 +1,35 @@
+.label {
+    -fx-font-family: 'Copperplate Gothic Bold', sans-serif;
+    -fx-text-fill:  white;
+    -fx-alignment: center;
+}
+.title-label {
+    -fx-font-size: 72px;
+    -fx-alignment: center;
+}
+.display-label {
+    -fx-font-size: 24px;
+}
+#playerNameDisplay1 {
+    -fx-font-size: 20 px;
+}
+#playerNameDisplay {
+    -fx-font-size: 20 px;
+    -fx-text-fill: turquoise;
+}
+#header-label {
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-font-size: 20 px;
+}
+#score-board-label {
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-font-size: 16 px;
+}
+#controls-label {
+    -fx-font-size: 20px;
+}
+.FPS-label {
+    -fx-font-size: 20px;
+    -fx-font-family: "Roboto Light";
+    -fx-text-fill: green;
+}

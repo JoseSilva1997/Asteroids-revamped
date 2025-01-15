@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="startMenuPane" prefHeight="800.0" prefWidth="1080.0" stylesheets="@../../../CSS/background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.asteroidsrevamped.MainMenuController">
+   <children>
+      <Label layoutX="289.0" layoutY="99.0" prefHeight="121.0" prefWidth="503.0" styleClass="title-label" stylesheets="@../../../CSS/labels.css" text="ASTEROIDS" />
+      <Label layoutX="289.0" layoutY="220.0" prefHeight="82.0" prefWidth="503.0" styleClass="title-label" stylesheets="@../../../CSS/labels.css" text="REVAMPED!" />
+      <Button layoutX="300.0" layoutY="370.0" mnemonicParsing="false" onAction="#switchToGameWindow" prefHeight="50.0" prefWidth="480.0" stylesheets="@../../../CSS/buttons.css" text="Start game" />
+      <Button layoutX="300.0" layoutY="520.0" mnemonicParsing="false" onAction="#terminateButton" prefHeight="50.0" prefWidth="480.0" stylesheets="@../../../CSS/buttons.css" text="Exit" />
+      <Button layoutX="300.0" layoutY="420.0" onAction="#switchToScoreWindow" prefHeight="50.0" prefWidth="480.0" stylesheets="@../../../CSS/buttons.css" text="Scoreboard" />
+      <Label id="playerNameDisplay" fx:id="playerNameDisplay" layoutX="340.0" layoutY="650.0" prefHeight="26.0" prefWidth="400.0" styleClass="display-name-label" stylesheets="@../../../CSS/labels.css" />
+      <Label fx:id="playerNameDisplay1" layoutX="340.0" layoutY="600.0" prefHeight="50.0" prefWidth="400.0" styleClass="display-name-label" stylesheets="@../../../CSS/labels.css" text="Player name:" />
+      <TextField id="playerNameField" fx:id="playerNameField" layoutX="390.0" layoutY="643.0" stylesheets="@../../../CSS/textbox.css" />
+      <Button layoutX="301.0" layoutY="470.0" onAction="#switchToControlsWindow" prefHeight="50.0" prefWidth="480.0" stylesheets="@../../../CSS/buttons.css" text="Controls" />
+   </children>
+</AnchorPane>
