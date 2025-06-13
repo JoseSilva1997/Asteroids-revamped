@@ -5,7 +5,7 @@ This is my first independent project. It was used to learn more about Javafx and
 It functions as an old arcade game. You can put your name and it will save your score. The top 10 scores are recorded and can be seen in the "Top scores" window.
 
 Run the application:
-(Window only) - If you're on a windows devide, you can run the game by going to target-> asteroids-> bin -> asteroids.bat (windows batch file)
+(Windows only) - If you're on a windows devide, you can run the game by going to target-> asteroids-> bin -> asteroids.bat (windows batch file)
 or
 From IDE: open the project folder on your preferred java IDE and run the main class.
 
